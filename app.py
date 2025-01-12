@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 import joblib
 import numpy as np
+from text_processing import remove_punctuation_and_stopwords
+
 
 def remove_punctuation_and_stopwords(text):
     # Add the implementation here
