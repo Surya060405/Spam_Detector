@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../static/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../static/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+#heading{
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: white;
+}
+
+#label{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.mydiv{
+    width: 30vw;
+}
+
+.btn-grad{
+    background-color: white ;
+    color: black;
+    font-family: Poppins;
+}
+
+.btn-grad:hover{
+    color: white;
+    background-color: slateblue;
+}
+
+@media only screen and (max-width: 600px) {
+    #label{
+        font-size: 10px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+  }
